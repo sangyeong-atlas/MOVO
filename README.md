@@ -34,7 +34,7 @@ Vehicle SDK, FusedLocation, Gleo AI는 현재 앱의 구현 의존성에 포함�
 
 ## APK
 
-제출 파일: [apk/산경아틀라스_MOVO_release.apk](apk/산경아틀라스_MOVO_release.apk)
+제출 파일: [apk/산경아틀라스_Hyundai MOVO_release.apk](apk/산경아틀라스_Hyundai%20MOVO_release.apk)
 
 - Android 패키지: `com.hopon.car` / 버전: `0.3.1` (versionCode `4`)
 - release 빌드에 제출 전용 인증서로 서명합니다. 기존 개발 debug APK와 서명이 다릅니다.
@@ -103,7 +103,7 @@ npm run dev
 Android SDK의 `platform-tools`를 PATH에 등록하고, **새 심사용 Pleos 에뮬레이터**를 실행합니다. 여러 기기가 연결돼 있다면 아래 명령에 `-s <심사용 기기 ID>`를 지정하세요.
 
 ```sh
-adb install "apk/산경아틀라스_MOVO_release.apk"
+adb install "apk/산경아틀라스_Hyundai MOVO_release.apk"
 adb shell am start -n com.hopon.car/.MainActivity
 ```
 

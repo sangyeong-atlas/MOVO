@@ -20,3 +20,8 @@
 새 에뮬레이터 초기 부팅 중 별도 시스템 앱 `ai.umos.drivingview`의 GPU 관련 native crash가 기록되었습니다. MOVO 프로세스는 유지됐고, 부팅 완료 후 MOVO 홈 표시를 확인했습니다. 이 시스템 앱 오류를 MOVO 기능 검증 통과로 간주하지 않습니다.
 
 SDK 연결 구현과 물리 차량 제어의 범위는 [구현 범위](IMPLEMENTATION.md)를 참고하세요. 기존 사용자 앱·DB·페어링·Journey는 이번 검증 대상으로 사용하지 않았습니다.
+
+## 정식 앱 이름 정정
+
+설치 앱 이름·모바일 웹 제목·PWA 이름을 **Hyundai MOVO**로 정정했습니다. APK 파일명은 `산경아틀라스_Hyundai MOVO_release.apk`입니다.
+정정 후 release 재빌드와 기존 제출 인증서 서명 검증, zipalign, APK 메타데이터의 `application-label: Hyundai MOVO` 및 debuggable 플래그 없음을 확인했습니다. 이름 정정 후 기기 시나리오 테스트를 다시 실행한 것은 아닙니다.
