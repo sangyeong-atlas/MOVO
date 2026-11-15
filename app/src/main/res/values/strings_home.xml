@@ -1,0 +1,12 @@
+<resources>
+    <string name="home_prepare">출발 준비</string>
+    <string name="home_pickup">픽업</string>
+    <string name="home_driving">주행</string>
+    <string name="home_arrival">도착</string>
+    <string name="home_ready">오늘의 여정을 준비하세요</string>
+    <string name="home_park">주차 위치를 남기고 여정을 마쳐요</string>
+    <string name="home_pickup_check">약속한 픽업 위치와 탑승 상태를 확인하세요</string>
+    <string name="home_solo">나만의 여정</string>
+    <string name="home_together">함께하는 여정</string>
+    <string name="home_destination">목적지 · %1$s</string>
+</resources>

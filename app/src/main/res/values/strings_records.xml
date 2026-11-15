@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="record_title">여정 요약 · 기록</string>
+    <string name="record_stats">%1$s   ·   동승자 %2$d명   ·   경유지 %3$d곳   ·   방문 확인 %4$d곳</string>
+    <string name="record_route">이동 경로</string>
+    <string name="record_route_note">저장된 코스 순서 · 실제 주행 궤적은 아니에요</string>
+    <string name="record_origin">출발</string>
+    <string name="record_stop">경유 %1$d</string>
+    <string name="record_destination">목적지</string>
+    <string name="record_unknown_place">장소 이름 없음</string>
+    <string name="record_no_stops">등록된 경유지 없이 목적지로 향한 코스예요.</string>
+    <string name="record_visits">방문 확인된 장소 · %1$d곳</string>
+    <string name="record_no_visits">방문 확인 기록이 없어요. 경유지와 방문 기록은 별도로 남아요.</string>
+    <string name="record_confirmed_at">방문 확인 · %1$s</string>
+    <string name="record_crew">함께 탄 동승자 · %1$d명</string>
+    <string name="record_driver">운전자 · %1$s</string>
+    <string name="record_solo">동승자 없이 함께한 나만의 여정이에요.</string>
+    <string name="record_none_boarded">아직 탑승 완료한 동승자가 없어요.</string>
+    <string name="record_not_boarded">참여 · 탑승 미확인: %1$s</string>
+    <string name="record_parking">저장한 주차 정보</string>
+    <string name="record_no_parking">저장한 주차 정보가 없어요.</string>
+    <string name="record_retained">완료된 여정의 저장 기록이에요. 주차 정보는 모바일 파티방에서도 확인할 수 있어요.</string>
+</resources>

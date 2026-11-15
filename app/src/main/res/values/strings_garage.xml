@@ -1,0 +1,29 @@
+<resources>
+    <string name="garage_title">파티방</string>
+    <string name="garage_heading">오늘은 어떤 여정을 시작할까요?</string>
+    <string name="garage_hint">차량에 연결한 파티방을 고르고, 경로와 함께할 사람을 확인하세요.</string>
+    <string name="garage_solo">셀프 파티방</string>
+    <string name="garage_together">함께 타는 파티방</string>
+    <string name="garage_solo_hint">반복되는 하루를 나만의 경로로</string>
+    <string name="garage_together_hint">픽업부터 도착까지 함께 준비해요</string>
+    <string name="garage_empty">첫 파티방을 연결해 보세요</string>
+    <string name="garage_add_hint">모바일에서 파티방을 만들고 차량 연결 코드를 발급받으세요.</string>
+    <string name="garage_add">+ 파티방 연결</string>
+    <string name="garage_select">선택하고 출발 준비</string>
+    <string name="garage_current">현재 연결</string>
+    <string name="garage_card_detail">동승자 %1$d명 · 경유지 %2$d곳</string>
+    <string name="garage_saved_note">다른 파티방의 정보는 마지막 연결 기준이에요. 선택하면 최신 정보를 확인합니다.</string>
+    <string name="garage_completed">완료한 여정이에요. 다음 여정은 모바일에서 새로 연결해 주세요.</string>
+    <string name="garage_choose_again">다른 파티방 선택</string>
+    <string name="preparation_hint">저장한 경로와 좌석을 확인한 뒤 출발을 준비하세요.</string>
+    <string name="preparation_route">이번 여정의 경로</string>
+    <string name="preparation_people">함께할 동승자 %1$d명</string>
+    <string name="preparation_solo">혼자 떠나는 여정이에요. 목적지와 경유지를 확인해 주세요.</string>
+    <string name="preparation_solo_ready">출발 준비 완료</string>
+    <string name="preparation_depart">출발하기</string>
+    <string name="preparation_ready">출발할 준비가 되었어요</string>
+    <string name="preparation_continue">진행 중인 여정 보기</string>
+    <string name="garage_locked">진행 중인 여정을 마친 뒤 파티방을 선택해 주세요.</string>
+    <string name="garage_wait">요청 처리 완료 후 파티방을 선택해 주세요.</string>
+    <string name="garage_reconnect">이 파티방을 다시 연결해 주세요. 모바일에서 새 코드를 발급받을 수 있어요.</string>
+</resources>

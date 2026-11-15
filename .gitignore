@@ -1,0 +1,87 @@
+# Local tooling, caches and generated output
+.gradle/
+.kotlin/
+.idea/
+.vscode/
+**/build/
+out/
+local.properties
+*.iml
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+coverage/
+*.log
+
+# Environment and credentials; reviewed empty templates may be tracked
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+credentials.json
+credentials*.json
+service-account*.json
+*serviceAccount*.json
+secrets/
+.credentials/
+.aws/
+.ssh/
+.netrc
+.npmrc
+.pypirc
+.codex/
+
+# Runtime databases, authentication/session state and device backups
+*.db
+*.db-*
+*.db.*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+session.json
+session-*.json
+*-session.json
+*session*.xml
+hopon-v2.xml
+original-hopon-v2.xml
+shared_prefs/
+
+# Distribution artifacts: preserve locally, do not commit
+*.apk
+*.aab
+*.apks
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+/deliverables/
+
+# Raw handoff/chat/design references and device validation captures
+/references/
+/docs/screenshots/
+/docs/validation/
+
+# Keep Gradle Wrapper binaries required for reproducible builds
+!gradle/wrapper/gradle-wrapper.jar
+
+# Submission: only the reviewed, signed release APK may be tracked.
+!/apk/산경아틀라스_MOVO_release.apk
+*.idsig
+*.pass
+/private-signing/
+/review-only/
+/mobile/dist/
+/mobile/public/screens.html
+/mobile/*.tsbuildinfo

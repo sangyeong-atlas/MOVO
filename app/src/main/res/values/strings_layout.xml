@@ -1,0 +1,8 @@
+<resources>
+    <string name="layout_arrived">도착했어요</string>
+    <string name="layout_completed">여정을 마쳤어요</string>
+    <string name="layout_support_region">여정 보조 정보 영역</string>
+    <string name="layout_seat_status">좌석에서 크루 상태를 확인하세요</string>
+    <string name="layout_saved_cabin">완료된 여정의 좌석 기록</string>
+    <string name="layout_arrival_time">도착 예정</string>
+</resources>

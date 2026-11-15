@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="arrival_overview">도착 · 주차 공유</string>
+    <string name="arrival_step_save">1  주차 위치와 메모</string>
+    <string name="arrival_not_saved">저장 전</string>
+    <string name="arrival_queued">기기 저장 완료 · 서버 확인 대기</string>
+    <string name="arrival_saved">서버 저장 완료</string>
+    <string name="arrival_memo_prompt">어디에 주차하셨나요?</string>
+    <string name="arrival_no_memo">주차 메모 없음</string>
+    <string name="arrival_saved_at">저장 시각 · %1$s</string>
+    <string name="arrival_save_share">저장하고 공유하기</string>
+    <string name="arrival_edit">주차 정보 수정</string>
+    <string name="arrival_step_share">2  모바일에서 함께 확인</string>
+    <string name="arrival_share_wait">연결 복구 후 자동 공유</string>
+    <string name="arrival_share_ready">모바일 조회 가능</string>
+    <string name="arrival_share_after_save">저장하면 파티방에 공유돼요</string>
+    <string name="arrival_recipients">함께 확인할 동승자 · %1$d명</string>
+    <string name="arrival_solo">나의 모바일에서 주차 위치를 확인해요.</string>
+    <string name="arrival_mobile_note">모바일 파티방에서 주차 정보를 확인할 수 있어요. 동승자의 열람 여부는 표시하지 않아요.</string>
+    <string name="arrival_retry_note">아직 새 주차 정보가 공유되지 않았어요. 연결되면 자동으로 다시 전송해요.</string>
+    <string name="arrival_step_finish">3  주차 저장 후 여정 마무리</string>
+    <string name="arrival_finish_note">서버 저장 확인 후 마칠 수 있어요.</string>
+    <string name="arrival_map_note">시뮬레이션 위치 · 실제 차량 위치 아님</string>
+    <string name="arrival_map_fit">위치 보기</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="MovoLight" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#002c5f</item>
+        <item name="android:windowBackground">#f6f3f2</item>
+    </style>
+</resources>

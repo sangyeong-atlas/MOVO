@@ -1,0 +1,11 @@
+<resources>
+    <string name="pickup_overview">픽업 순서</string>
+    <string name="pickup_progress">탑승 완료 %1$d / %2$d명</string>
+    <string name="pickup_panel_hint">지도와 같은 번호 · 카드를 누르면 상세</string>
+    <string name="pickup_card_description">픽업 %1$s · %2$s · %3$s · %4$s</string>
+    <string name="pickup_confirm_person">%1$s 탑승 확인</string>
+    <string name="pickup_next_badge">다음 픽업</string>
+    <string name="pickup_done">✓ 탑승 확인됨</string>
+    <string name="pickup_seats">좌석·동승자 상세</string>
+    <string name="pickup_wait_location">동승자 픽업 위치를 확인해 주세요</string>
+</resources>

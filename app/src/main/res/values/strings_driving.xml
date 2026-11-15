@@ -1,0 +1,12 @@
+<resources>
+    <string name="drive_overview">이번 여정</string>
+    <string name="drive_arrival_label">최종 목적지 도착 예상</string>
+    <string name="drive_eta_unknown">도착 시각 확인 불가</string>
+    <string name="drive_eta_note">시연 추정 · 교통 미반영</string>
+    <string name="drive_confirmed">확정 경유지</string>
+    <string name="drive_direct">경유지 없이 목적지로 이동해요</string>
+    <string name="drive_requests">동승자 요청 · 대기 %1$d건</string>
+    <string name="drive_request_empty">동승자가 보낸 경유지·좌석 요청이 여기에 표시돼요.</string>
+    <string name="drive_request_action">%1$s · %2$s</string>
+    <string name="drive_apply_note">적용 완료를 확인한 경유지만 경로에 반영돼요.</string>
+</resources>

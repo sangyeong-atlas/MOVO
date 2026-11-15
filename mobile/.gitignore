@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.db
+*.db-*
+__pycache__/
+*.log
+.DS_Store
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Generated from the unchanged approved design by prepare-screens.mjs
+/public/screens.html

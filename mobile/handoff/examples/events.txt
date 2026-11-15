@@ -1,0 +1,5 @@
+id: 14
+event: snapshot
+data: {"eventId":14,"room":{"roomId":"R-EXAMPLE","status":"pickup"},"members":[],"telemetry":{"source":"simulator","sequence":12},"freshness":"fresh"}
+
+This is an abbreviated illustrative event. The actual SSE data is the complete Snapshot type in types.ts. Do not use this abbreviated object as a full integration fixture.

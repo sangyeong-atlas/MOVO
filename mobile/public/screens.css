@@ -1,0 +1,28 @@
+/* Viewer controls never restyle any element inside the approved phone screens. */
+.movo-viewer{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:10000;background:#fff;color:#002c5f;border:1px solid #e4dcd3;box-shadow:0 6px 30px #002c5f22;border-radius:18px;padding:8px 12px;display:flex;align-items:center;gap:8px;max-width:calc(100vw - 24px);font:600 12px 'Noto Sans KR',sans-serif}
+.movo-viewer button,.movo-viewer select{font:inherit;border:0;border-radius:10px;padding:9px 11px;color:inherit;background:#f6f3f2;cursor:pointer;white-space:nowrap;min-height:38px}.movo-viewer .movo-primary{background:#002c5f;color:#fff}.movo-viewer select{max-width:240px}.movo-viewer .movo-mode{font-size:10px;color:#6d6a67;white-space:nowrap}.movo-viewer button:disabled{opacity:.35;cursor:default}.movo-viewer button:focus-visible,.movo-viewer select:focus-visible{outline:2px solid #002c5f}
+body[data-movo-view="single"] .wrap{max-width:none;padding:22px 20px 110px;display:flex;justify-content:center}
+body[data-movo-view="single"] .wrap>.top,body[data-movo-view="single"] .sec>h2{display:none}
+body[data-movo-view="single"] .sec,body[data-movo-view="single"] .row{display:contents}
+body[data-movo-view="single"] .shot{display:none;margin:0}
+body[data-movo-view="single"] .shot[data-active="true"]{display:block}
+body[data-movo-view="single"] .shot figcaption{margin-bottom:16px}
+.movo-dialog{color:#0a1a30;background:#f6f3f2;border:0;border-radius:26px;box-shadow:0 10px 60px #002c5f33;padding:24px;width:360px;max-width:calc(100vw - 32px);max-height:85dvh;overflow:auto;font:14px/1.5 'Noto Sans KR',sans-serif;position:fixed;inset:0;margin:auto}
+.movo-dialog::backdrop{background:#0a1a3066}.movo-dialog header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.movo-dialog h2{font-size:22px;color:#002c5f}.movo-dialog form,.movo-dialog .movo-stack{display:flex;flex-direction:column;gap:14px}.movo-dialog label{font-size:12px;font-weight:700;display:block}.movo-dialog input,.movo-dialog select,.movo-dialog textarea{display:block;width:100%;font:inherit;background:#fff;border:1px solid #e4dcd3;border-radius:12px;padding:12px;margin-top:6px;min-width:0}.movo-dialog button,.movo-dialog a.movo-action{font:600 13px 'Noto Sans KR',sans-serif;border:0;border-radius:12px;padding:12px;background:#fff;color:#002c5f;cursor:pointer;min-height:42px}.movo-dialog button.movo-primary{background:#002c5f;color:#fff}.movo-dialog button:disabled{opacity:.4;cursor:default}.movo-dialog p{font-size:12px;color:#6d6a67}.movo-dialog .movo-result{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:3px;width:100%;margin-top:8px}.movo-dialog small{color:#6d6a67;font-size:11px}.movo-dialog .movo-error{color:#a03628}.movo-dialog .movo-item{background:white;border-radius:16px;padding:14px;margin:10px 0}.movo-dialog .movo-actions{display:flex;gap:8px;margin-top:10px}.movo-dialog .movo-actions>*{flex:1}.movo-dialog .movo-check{display:flex;align-items:center;gap:8px}.movo-dialog .movo-check input{width:20px;margin:0}.movo-toast{position:fixed;left:50%;transform:translateX(-50%);bottom:88px;max-width:calc(100vw - 32px);padding:12px 18px;border-radius:14px;background:#002c5f;color:white;font:13px/1.5 'Noto Sans KR',sans-serif;z-index:20000;box-shadow:0 6px 24px #002c5f33}.movo-map{position:absolute;inset:0;z-index:0}.movo-map-label{background:#002c5f;color:white;border:2px solid white;border-radius:12px;padding:6px 10px;font:700 11px 'Noto Sans KR',sans-serif;white-space:nowrap}.movo-map-error{position:absolute;inset:0;display:grid;place-items:center;background:#ece6df;color:#002c5f;font:12px 'Noto Sans KR',sans-serif;padding:24px;text-align:center}
+@media(max-width:650px){.movo-viewer{gap:4px;padding:6px;bottom:8px;flex-wrap:wrap;justify-content:center;width:max-content}.movo-viewer select{max-width:175px}.movo-viewer button{padding:8px}.movo-viewer .movo-mode{display:none}body[data-movo-view="single"] .wrap{padding:18px 12px 110px}}
+
+/* Keep navigation outside the artwork; no toolbar may cover a phone. */
+.movo-viewer{position:relative;left:auto;bottom:auto;transform:none;width:max-content;margin:16px auto;z-index:10000}
+@media(max-width:650px){.movo-viewer{bottom:auto;margin:8px auto}}
+
+body[data-movo-view="all"] .top .movo-viewer{margin:0;padding:4px 8px;flex-shrink:0}
+
+/* Service entry follows the original screens without the design-review controls. */
+body[data-movo-service="true"] .movo-viewer,body[data-movo-service="true"] .shot figcaption{display:none}
+body[data-movo-service="true"] .wrap{padding:20px 10px;min-height:100dvh;align-items:center}
+body[data-movo-service="true"] .scr{overflow-y:auto}
+@media(max-width:420px){body[data-movo-service="true"] .wrap{padding:0}body[data-movo-service="true"] .shot{width:100%}body[data-movo-service="true"] .phone{width:100%;height:100dvh;margin:0;border-radius:0;box-shadow:none}}
+
+.movo-invite-count{position:absolute;top:-4px;right:-4px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#a36b4f;color:white;font:700 10px/17px sans-serif;text-align:center}.rb:has(.movo-invite-count){position:relative}
+
+.movo-route-note{position:absolute;top:8px;left:12px;right:12px;z-index:650;background:rgba(255,255,255,.94);border-radius:8px;padding:5px 9px;font-size:11px;color:#002c5f;pointer-events:none}.movo-map-pin{background:transparent;border:0}.movo-map .leaflet-control-attribution{font-size:9px}

@@ -1,0 +1,34 @@
+<resources>
+    <string name="v3_connected">연결됨</string>
+    <string name="v3_offline">오프라인 · 저장된 정보</string>
+    <string name="v3_settings">설정</string>
+    <string name="v3_back">여행</string>
+    <string name="v3_cabin">함께 가는 크루 · 앞쪽 ↑</string>
+    <string name="v3_party_details">크루 정보</string>
+    <string name="v3_seat_hint">좌석을 누르면 크루 정보를 볼 수 있어요</string>
+    <string name="v3_driving_compact">도착 후 크루 정보를 볼 수 있어요</string>
+    <string name="v3_empty">빈 좌석</string>
+    <string name="v3_seat_description">%1$d번 좌석 · %2$s · %3$s</string>
+    <string name="v3_invite_mobile">모바일에서 크루에게 탑승권을 보내세요</string>
+    <string name="v3_map_description">오픈스트리트맵 위에 시뮬레이션 위치와 점선 경로를 표시해요. 실제 길 안내가 아니에요.</string>
+    <string name="v3_map_simulated">시뮬레이션 경로 · 실제 길 안내 아님</string>
+    <string name="v3_map_unavailable">지도를 불러올 수 없어 시뮬레이션 경로만 표시해요</string>
+    <string name="v3_attribution">© OpenStreetMap 기여자</string>
+    <string name="v3_fit">전체 경로</string>
+    <string name="v3_pickup_name">%1$s님 픽업</string>
+    <string name="v3_planning_detail">크루원 %1$d명과 함께 떠나는 여행</string>
+    <string name="v3_toward">%1$s 방향으로 이동 중</string>
+    <string name="v3_arrival_detail">크루가 다시 만날 주차 장소를 저장해 주세요</string>
+    <string name="v3_view_summary">여행 요약 보기</string>
+    <string name="v3_requests">요청</string>
+    <string name="v3_history">기록</string>
+    <string name="v3_journey_details">여행 정보</string>
+    <string name="v3_solo">나만의 여행</string>
+    <string name="v3_visits">방문 확인 장소</string>
+    <string name="v3_no_visits">아직 방문을 확인한 장소가 없어요.</string>
+    <string name="v3_online_map">온라인 지도 표시</string>
+    <string name="v3_map_privacy">오픈스트리트맵에서 도로와 장소를 불러와요. 화면에 보이는 지도 영역만 요청하며 크루원 이름과 인증정보는 전송하지 않아요. 저장되지 않은 지역은 인터넷 연결이 필요해요.</string>
+    <string name="v3_journey_region">여행 지도 영역</string>
+    <string name="v3_party_region">크루 좌석 영역</string>
+    <string name="v3_vacant_seat">%1$d번 좌석</string>
+</resources>
