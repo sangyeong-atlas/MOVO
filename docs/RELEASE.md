@@ -11,8 +11,8 @@
 ```sh
 zipalign -p -f 4 app/build/outputs/apk/release/app-release-unsigned.apk /tmp/movo-aligned.apk
 apksigner sign --ks /secure/path/submission.jks --ks-key-alias movo-submission \
-  --out "apk/산경아틀라스_MOVO_release.apk" /tmp/movo-aligned.apk
-apksigner verify --verbose --print-certs "apk/산경아틀라스_MOVO_release.apk"
+  --out "apk/산경아틀라스_Hyundai MOVO_release.apk" /tmp/movo-aligned.apk
+apksigner verify --verbose --print-certs "apk/산경아틀라스_Hyundai MOVO_release.apk"
 ```
 
 위 경로는 예시입니다. 서명 키·비밀번호는 저장소 밖에서 보관하고 명령 기록이나 README에 실제 값을 넣지 않습니다. 인증서 주체에도 개인 실명·개인 이메일을 사용하지 않습니다. 같은 앱의 후속 업데이트는 같은 서명 키를 사용해야 합니다.

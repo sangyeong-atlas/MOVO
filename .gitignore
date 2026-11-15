@@ -77,7 +77,7 @@ shared_prefs/
 !gradle/wrapper/gradle-wrapper.jar
 
 # Submission: only the reviewed, signed release APK may be tracked.
-!/apk/산경아틀라스_MOVO_release.apk
+!/apk/산경아틀라스_Hyundai MOVO_release.apk
 *.idsig
 *.pass
 /private-signing/
